@@ -1,0 +1,82 @@
+body {
+	margin:80px;
+	text-align: left;
+	background-color: rgb(128,185,216);
+}
+
+h1 {
+	font-family: Times, serif;
+	font-size: 50px;
+	font-weight: bold;
+	letter-spacing: .75px;
+	line-height: 60px;
+	color: white;
+}
+
+h2 {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+/*	line-height: -100px;*/
+	color: rgb(90,90,90);
+}
+
+h3 {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: rgb(90,90,90);
+}
+
+p {
+	font-family: Times, serif;
+	font-size: 18px;
+	color: rgb(90,90,90);
+}
+
+ul {
+	font-family: Times, serif;
+	font-size: 18px;
+	color: rgb(90,90,90);
+}
+
+footer {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: rgb(255,255,255);
+}
+
+/*
+p
+ul
+li
+img
+#slogan
+
+background
+background-color
+color
+font-size
+font-style
+font-weight
+text-align
+text-decoration
+text-transform
+
+margin
+padding
+border
+width
+text-align
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}*/
