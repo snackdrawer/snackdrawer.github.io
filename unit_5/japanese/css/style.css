@@ -1,0 +1,265 @@
+@import url(https://fonts.googleapis.com/css?family=Vollkorn:400,800);
+
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body { 
+	height: 100%; 
+	width: 100%; 
+	margin: 0; }
+
+body {
+	text-align: left;
+	background-color: rgb(165,195,216);
+}
+
+header {
+	height: 15em;
+}
+
+p, figcaption {
+	font-family: 'Vollkorn', serif;
+	font-size: 18px;
+	color: rgb(90,90,90);
+	line-height: 1.65em;
+}
+
+h1 {
+	font-family: 'Vollkorn', serif;
+	font-size: 3.25em;
+	font-weight: 400;
+	line-height: 1.3em;
+	letter-spacing: -.01em;
+	color: white;
+	margin-bottom: 20px;
+/*	margin-top: 2.5em;*/
+}
+
+h2 {
+	font-family: Arial, sans-serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .08em;
+	color: rgb(90,90,90);
+	padding-top: 1em;
+	padding-bottom: .5em;
+}
+
+h3 {
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .08em;
+	color: white;
+	padding-bottom: .5em;
+}
+
+b, {
+	font-weight: bold;
+	letter-spacing: .01em;
+}
+
+hr { 
+	border-top: 4px solid white;
+	margin-bottom: 1.25em;
+}
+
+footer {
+	background-color: #a2a2a2;
+	width: 100%;
+	font-family: Arial, sans-serif;
+	font-size: .95em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: .1em;
+	color: rgb(255,255,255);
+	padding: 2em;
+	margin-top: 4em;
+}
+
+
+.section {
+	width: 50%;
+	float: left;
+}
+
+#contentwrapper {
+	width: 88%;
+	float: left;
+}
+
+#navwrapper {
+	width: 13%;
+	height: 100%;
+	float: right;
+	position: fixed;
+	right: 0;
+	top:0;
+}
+
+.smallnav {
+	height: 100%;
+}
+
+#logo {
+	margin-top: 2em;
+	padding-left: 4em;
+}
+
+.language {
+	width: 70%;
+	min-width: 800px;
+	max-width: 1000px;
+	margin: auto;
+	padding-left: 10em;
+/*	padding-right: 0em;
+*/	float: left;
+	background-color: rgb(165,195,216);
+/*	background-color: cyan;
+*/
+}
+
+.ja {
+	font-family: 'Hiragino Kaku Gothic Pro', 'Meiryo', sans-serif;
+}
+
+.sidebar {
+	width: 30%;
+	max-width: 500px;
+	float: left;
+	margin: auto;
+	padding-left: 8em;
+	padding-right: 8em;
+}
+
+.toggle {
+	width: 20%;
+}
+
+.logo {
+	padding-top: 1em;
+	padding-left: 4em;
+}
+
+#toggle1 {
+	background-color: rgb(210,210,210);
+	padding: 1.5em;
+	height: 20%;
+}
+
+#toggle2 {
+	background-color: #ffd2c9;
+	padding: 1.5em;
+	height: 20%;
+}
+#toggle3 {
+	background-color: #FAE8A3;
+	padding: 1.5em;
+	height: 20%;
+}
+
+#toggle4 {
+	background-color: #B9EAFF;
+	padding: 1.5em;
+	height: 20%;
+}
+
+#toggle5 {
+	background-color: #C7E5D6;
+	padding: 1.5em;
+	height: 20%;
+}
+
+/*.spannav{
+	display: inline-block;
+  	vertical-align: middle;
+  	line-height: normal;  
+}*/
+
+.fa {
+	color: white;
+}
+
+.nav {
+	width: 26%;
+	float: left;
+}
+
+.blurb {
+	display: inline;
+}
+
+.levels {
+	color: rgb(90,90,90);
+	background-color: rgba(255,255,255,0.4);
+	line-height: 2em;
+	padding: .6em;
+	margin-bottom: 1em;
+}
+
+.spaceafter {
+	padding-bottom: 2em;
+}
+
+.bigspaceafter {
+	font-size: 1.75em;
+	margin-bottom: 1em;
+}
+
+.class_signup {
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+.button {
+	color: white;
+	width: 100%;
+	background-color: #D90909;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: .75em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	padding: .75em;
+	border-radius: .5em;
+}
+
+.button2 {
+	margin-top: 1em;
+}
+
+.teacher {
+	width: 100%;
+	margin-top: 2em;
+
+}
+
+.navtext {
+	color: rgb(90,90,90);
+}
+
+main:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+a:link { 
+	color: rgb(90,90,90);
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: none;
+}
