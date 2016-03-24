@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Vollkorn:400,800);
 @font-face {
-	font-family: 'Hiragino Kaku Gothic Pro';
-    src: url(ヒラギノ角ゴ Pro W6.otf);
+	font-family: 'NotoSansCJKjp-Medium';
+    src: url(fonts/NotoSansCJKjp-Medium.otf);
 }
 
 *,
@@ -36,7 +36,7 @@ p, figcaption {
 
 h1 {
 	font-family: 'Vollkorn', serif;
-	font-size: 3.25em;
+	font-size: 3.5em;
 	font-weight: 400;
 	line-height: 1.3em;
 	letter-spacing: -.01em;
@@ -135,7 +135,7 @@ footer {
 }
 
 .ja {
-	font-family: 'Hiragino Kaku Gothic Pro', 'Meiryo', sans-serif;
+	font-family: 'NotoSansCJKjp-Medium', 'Meiryo', sans-serif;
 }
 
 .sidebar {
