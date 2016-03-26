@@ -1,8 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Vollkorn:400,800);
 @font-face {
-	font-family: 'NotoSansCJKjp';
-    src: url(fonts/NotoSansCJKjp-Medium.otf);
+	font-family: 'Meiryo';
+    src: url('fonts/Meiryo.ttf') format('truetype');
 }
+
 
 *,
 *:before,
@@ -150,7 +151,7 @@ footer {
 }
 
 .ja {
-	font-family: 'NotoSansCJKjp', 'Meiryo', sans-serif;
+	font-family: 'Meiryo', sans-serif;
 	font-weight: medium;
 }
 
