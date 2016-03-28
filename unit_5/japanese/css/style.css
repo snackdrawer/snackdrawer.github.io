@@ -288,8 +288,8 @@ main:after, #contentwrapper:after {
 }
 
 a:link { 
-	color: rgb(90,90,90);
-    text-decoration: none;
+/*	color: rgb(90,90,90);
+*/    text-decoration: none;
 }
 
 a:hover {
