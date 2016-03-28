@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Vollkorn:400,800);
+@import url(https://fonts.googleapis.com/css?family=Vollkorn:400);
 @font-face {
 	font-family: 'Meiryo';
     src: url('fonts/Meiryo.ttf') format('truetype');
@@ -37,7 +37,7 @@ p, figcaption {
 
 h1 {
 	font-family: 'Vollkorn', serif;
-	font-size: 3.5em;
+	font-size: 60px;
 	font-weight: 400;
 	line-height: 1.3em;
 	letter-spacing: -.01em;
@@ -58,19 +58,19 @@ h2 {
 
 h3 {
 	font-family: Arial, sans-serif;
-	font-size: 16px;
+	font-size: 17px;
 	font-weight: bold;
 	text-transform: uppercase;
-	letter-spacing: 2px;
+	letter-spacing: 1.5px;
 	line-height: 21px;
-	color: white;
-/*	color: rgb(90,90,90);*/
+/*	color: white;
+*/	color: rgb(90,90,90);
 	padding-bottom: 5px;
 }
 
-b {
+b, figcaption {
 	font-size: 18px;
-	font-weight: bold;
+	font-weight: 800;
 }
 
 hr { 
@@ -92,6 +92,7 @@ footer {
 	padding: 2em;
 	margin-top: 4em;
 }
+
 
 /*wrappers*/
 
@@ -119,6 +120,11 @@ footer {
 	top: 0;
 }
 
+.nav {
+	width: 26%;
+	float: left;
+}
+
 .smallnav {
 	height: 100%;
 }
@@ -132,15 +138,6 @@ footer {
 
 /*containers*/
 
-/*other elements*/
-
-/*text styles*/
-
-.logo {
-	padding-top: 1em;
-	padding-left: 4em;
-}
-
 .language {
 	width: 70%;
 	min-width: 800px;
@@ -150,9 +147,13 @@ footer {
 	float: left;
 }
 
-.ja {
-	font-family: 'Meiryo', sans-serif;
-	font-weight: medium;
+.levels {
+	color: rgb(90,90,90);
+	background-color: rgba(255,255,255,0.2);
+/*	background-color: rgb(137,175,206);
+*/	line-height: 2em;
+	padding: 8px;
+	margin-bottom: 1em;
 }
 
 .sidebar {
@@ -198,36 +199,39 @@ footer {
 	height: 20%;
 }
 
-/*.spannav{
-	display: inline-block;
-  	vertical-align: middle;
-  	line-height: normal;  
-}*/
+/*other elements*/
+
+/*text styles*/
+
+.logo {
+	padding-top: 1em;
+	padding-left: 4em;
+}
 
 .fa {
 	color: white;
 }
 
-.nav {
-	width: 26%;
-	float: left;
+.ja {
+	font-family: 'Meiryo', sans-serif;
+	font-weight: medium;
+}
+
+.th {
+
+}
+
+.ko {
+
 }
 
 .blurb {
 	display: inline;
 }
 
-.levels {
+.h3_white {
 	color: white;
-	/*background-color: rgba(255,255,255,0.4);*/
-	background-color: rgb(137,175,206);
-	line-height: 2em;
-	padding: .6em;
-	margin-bottom: 1em;
-}
-
-.p_spaceafter {
-	padding-bottom: 25px;
+	letter-spacing: 2px;
 }
 
 .bigspaceafter {
@@ -236,15 +240,8 @@ footer {
 	margin-bottom: 1em;
 }
 
-.quote {
-	text-align: center;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-.class_signup {
-	margin-top: 1em;
-	margin-bottom: 1em;
-	display: inline-block;
+.p_spaceafter {
+	padding-bottom: 25px;
 }
 
 .button {
@@ -260,10 +257,24 @@ footer {
 	border-radius: .5em;
 }
 
+.quote {
+	font-style: italic;
+/*	letter-spacing: 1px;*/
+/*	text-align: center;
+*/	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.class_signup {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	display: inline-block;
+}
+
 .teacher {
 	width: 100%;
-	margin-top: 2em;
-
+	margin-top: 25px;
+	margin-bottom: 5px;
 }
 
 .navtext {
