@@ -176,6 +176,10 @@ footer {
 
 /*containers*/
 
+.body_about {
+	background-color: #ffd2c9;
+}
+
 .language {
 	width: 70%;
 	min-width: 800px;
@@ -295,6 +299,10 @@ footer {
 
 .main_language:hover .english {
 	/*opacity: 0;*/
+}
+
+#ja_hover {
+	display: inline-block;
 }
 
 .fa {
