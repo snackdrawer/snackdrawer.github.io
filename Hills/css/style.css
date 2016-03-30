@@ -295,6 +295,20 @@ footer {
 .native {
 	position: absolute;
 	opacity: 0;
+	top: 0;
+	left: 0;
+	-webkit-transition: all 1s ease-in-out;   
+	-moz-transition: all 1s ease-in-out;   
+	-o-transition: all 1s ease-in-out;   
+	transition: all 1s ease-in-out;
+}
+
+.english {
+	-webkit-transition: all 1s ease-in-out;   
+	-moz-transition: all 1s ease-in-out;   
+	-o-transition: all 1s ease-in-out;   
+	transition: all 1s ease-in-out;
+
 }
 
 .language_hover {
