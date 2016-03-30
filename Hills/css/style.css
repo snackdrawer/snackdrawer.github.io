@@ -293,12 +293,20 @@ footer {
 }
 
 .native {
-/*	opacity: 0;*/
-	display: inline;
+	position: absolute;
+	opacity: 0;
 }
 
-.main_language:hover .english {
-	/*opacity: 0;*/
+.language_hover {
+	position: relative;
+}
+
+.language_hover:hover .native {
+	opacity: 1;
+}
+
+.language_hover:hover .english {
+	opacity: 0;
 }
 
 #ja_hover {
