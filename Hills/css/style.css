@@ -48,6 +48,18 @@ body {
 	flex-direction: column;
 }
 
+/*<script type="text/javascript">
+<!--
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+//-->
+</script>*/
+
 header {
 	height: 15em;
 }
@@ -439,3 +451,8 @@ a:hover {
     color: gray;
     text-decoration: none;
 }
+
+
+/*$( ".levelblurb" ).click(function() {
+  $( ".target" ).click();
+});*/
