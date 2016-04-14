@@ -466,16 +466,21 @@ a:hover {
 }
 
 @media screen only and (max-width: 900px) {
-	.nav_blurb {
+	.nav_blurb, address, #grandcentral {
 		display: none;
 	}
 
-/*	.main_toggle {
+	.main_toggle {
 		width: 20%
 	}
 
-	.blurb {
-		display: hidden;
+	#main_toggle1, #main_toggle2, #main_toggle3, #main_toggle4, #main_toggle5 {
+		height: 20%;
+		padding: 2em;
 	}
+
+}
+
+
 }
 */
