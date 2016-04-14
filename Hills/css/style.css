@@ -452,6 +452,18 @@ a:hover {
     text-decoration: none;
 }
 
+.target .levelblurb {
+	max-height: 0;
+	overflow: hidden;
+	-webkit-transition: all .5s ease-in-out;   
+	-moz-transition: all .5s ease-in-out;   
+	-o-transition: all .5s ease-in-out;   
+	transition: all .5s ease-in-out;
+}
+
+.target.active .levelblurb {
+	max-height: 100%;
+}
 
 /*$( ".levelblurb" ).click(function() {
   $( ".target" ).click();
