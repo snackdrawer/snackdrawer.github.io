@@ -236,6 +236,13 @@ footer {
 	padding: 1.5em;
 }
 
+#menu {
+	display: none;
+	background-color: rgb(165,195,216);
+	text-align: center;
+	margin-bottom: 20px;
+}
+
 #main_toggle1 {
 	background-color: rgb(210,210,210);
 	padding-top: 25px;
@@ -453,34 +460,169 @@ a:hover {
 }
 
 .target .levelblurb {
-	max-height: 0;
+/*	max-height: 0;*/
+	display: none;
 	overflow: hidden;
-	-webkit-transition: all .5s ease-in-out;   
-	-moz-transition: all .5s ease-in-out;   
-	-o-transition: all .5s ease-in-out;   
-	transition: all .5s ease-in-out;
+/*	-webkit-transition: all 250ms ease-in-out;   
+	-moz-transition: all 250ms ease-in-out;   
+	-o-transition: all 250ms ease-in-out;   
+	transition: all 250ms ease-in-out;*/
 }
 
 .target.active .levelblurb {
 	max-height: 100%;
 }
 
-@media screen only and (max-width: 900px) {
-	.nav_blurb, address, #grandcentral {
+
+@media screen and (max-width: 960px) {
+	.nav_blurb, address, #grandcentral, .fa-angle-down {
 		display: none;
 	}
 
+	#menu {
+		display: block;
+	}
+
+	h1 {
+		font-size: 50px;
+		line-height: 58px;
+	}
+
+	h2 {
+		font-size: 18px;
+	}
+
+	.nav {
+		width: 100%;
+	}
+
+	#section_right {
+		width: 33%;
+		float: right;
+	}
+
 	.main_toggle {
-		width: 20%
+		height: 100%;
 	}
 
 	#main_toggle1, #main_toggle2, #main_toggle3, #main_toggle4, #main_toggle5 {
-		height: 20%;
-		padding: 2em;
+		padding-bottom: 45px;
+		height: 100%;
 	}
 
+	.logo_small {
+		width: 125px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.nav_blurb, address, #grandcentral, .fa-angle-down {
+		display: none;
+	}
+
+	#logo {
+		margin-top: 1em;
+		padding-left: 1em;
+	}
+
+	#menu {
+		display: block;
+	}
+
+	header {
+		height: 125px;
+	}
+
+	.main_language {
+		margin-left: 1em;
+		padding-left: 0em;
+	}
+
+	h1 {
+		font-size: 35px;
+		line-height: 30px;
+	}
+
+	h2 {
+		font-size: 16px;
+	}
+
+	h3 {
+		font-size: 13px;
+		line-height: 14px;
+	}
+
+	.nav {
+		width: 100%;
+		height: 30px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+
+	#section_right {
+		width: 38%;
+		float: right;
+		margin-right: 0;
+	}
+
+	/*.main_toggle {
+		height: 50%;
+	}*/
+
+	#menu {
+		text-align: right;
+		margin-bottom: 5px;
+	}
+
+	#main_toggle1, #main_toggle2, #main_toggle3, #main_toggle4, #main_toggle5 {
+		padding-left: 15px;
+	}
+
+	.logo_small {
+		width: 90px;
+	}
+
+	footer {
+		font-size: 12px;
+		margin-bottom: 0px;
+	}
+
+	.language {
+		padding-left: 1em;
+	}
+	
+	#contentwrapper {
+		width: 50%{
+	}
+
+	#navwrapper {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+
+	/*.language {
+		float: none;
+		padding-left: 3em;
+	}
+
+	.sidebar {
+		width: 100%;
+		min-width: 800px;
+		max-width: 1000px;
+		margin: auto;
+		padding-left: 3em;
+		padding-right: none;
+		float: none;
+	}
+
+	.teacher_block {
+		display: inline-block;
+		width: 32%;
+	}*/
 }
 
 
-}
-*/
+
+
