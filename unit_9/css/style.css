@@ -37,7 +37,6 @@ all 1s ease-in-out; 
 transition: all 1s ease-in-out;*/
 
 html, body { 
-	height: 100%; 
 	width: 100%; 
 }
 
@@ -148,8 +147,8 @@ footer {
 }
 
 #contentwrapper {
-	width: 88%;
-	float: left;
+	width: 60%;
+	margin: 0 auto;
 	padding-bottom: 100px;
 }
 
@@ -213,19 +212,17 @@ footer {
 }
 
 #body_portal {
-	background-color: #B9EAFF;
+	background-color: #AADAE4;
 }
 
 #body_contact {
-	background-color: #C7E5D6;
+	background-color: #B1DEC5;
 }
 
 .language {
-	width: 70%;
-	min-width: 800px;
+	width: 66.6666%;
+	padding-right: 40px;
 	max-width: 1000px;
-	margin: auto;
-	padding-left: 10em;
 	float: left;
 }
 
@@ -239,13 +236,9 @@ footer {
 }
 
 .sidebar {
-	width: 30%;
-	max-width: 500px;
-	min-width: 200px;
+	width: 33.3333%;
+	padding-left: 40px;
 	float: left;
-	margin: auto;
-	padding-left: 8em;
-	padding-right: 8em;
 }
 
 .toggle {
@@ -282,13 +275,13 @@ footer {
 }
 
 #main_toggle4 {
-	background-color: #B9EAFF;
+	background-color: #AADAE4;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
 
 #main_toggle5 {
-	background-color: #C7E5D6;
+	background-color: #B1DEC5;
 }
 
 #grandcentral {
@@ -315,13 +308,13 @@ footer {
 }
 
 #toggle4 {
-	background-color: #B9EAFF;
+	background-color: #AADAE4;
 	padding: 2em;
 	height: 20%;
 }
 
 #toggle5 {
-	background-color: #C7E5D6;
+	background-color: #B1DEC5;
 	padding: 2em;
 	height: 20%;
 }
@@ -445,8 +438,7 @@ footer {
 
 .class_signup {
 	margin-top: 1em;
-	margin-bottom: 1em;
-	display: inline-block;
+	margin-bottom: 4em;
 }
 
 .teacher {
@@ -512,6 +504,22 @@ a:hover {
 	max-height: 100%;
 }
 
+@media screen and (max-width: 1400px) {
+	.language,
+	.sidebar {
+		padding-left: 0;
+		padding-right: 0;
+		width: 100%;
+		max-width: 100%;
+		float: none;
+	}
+
+	.teacher_block {
+		display: inline-block;
+		width: 32%;
+		padding-right: 1em;
+	}
+}
 
 @media screen and (max-width: 960px) {
 	.nav_blurb, address, #grandcentral, .fa-angle-down {
@@ -549,8 +557,16 @@ a:hover {
 		height: 100%;
 	}
 
+
+
 	.logo_small {
 		width: 125px;
+	}
+
+	.teacher_block {
+		display: inline-block;
+		width: 32%;
+		padding-right: 1em;
 	}
 }
 
@@ -576,6 +592,11 @@ a:hover {
 		margin-left: 1em;
 		padding-left: 0em;
 	}
+
+	.logo {
+	padding-top: 1em;
+	padding-left: 1em;
+}
 
 	h1 {
 		font-size: 35px;
@@ -639,9 +660,9 @@ a:hover {
 	}
 }
 
-@media screen and (max-width: 1400px) {
 
-	/*.language {
+
+/*	.language {
 		float: none;
 		padding-left: 3em;
 	}
@@ -659,8 +680,8 @@ a:hover {
 	.teacher_block {
 		display: inline-block;
 		width: 32%;
-	}*/
-}
+	}
+}*/
 
 
 
